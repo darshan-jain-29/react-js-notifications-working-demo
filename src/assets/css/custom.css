@@ -1,0 +1,96 @@
+body {
+    margin:0;
+    padding:0;
+    background:url("../images/remo-background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.floating{
+    font-size: 2em;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom: 20px;
+    right:1150px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+    margin: 7px 0px ;
+    width: 42px;
+}
+
+.r100{
+    right: 100px;
+}
+
+.r250{
+    right: 250px;
+}
+
+.r400{
+    right: 400px;
+}
+
+.r550{
+    right: 550px;
+}
+
+.r700{
+    right: 700px;
+}
+
+.r850{
+    right: 850px;
+}
+
+.r1000{
+    right: 1000px;
+}
+
+.userFloating{
+    font-size: 1em;
+    position:fixed;
+    width:40px;
+    height:40px;
+    left: 25.8%;
+    top: 16%;
+}
+
+.hideIcon{
+   display: none;
+}
+
+.circle-with-text {
+    margin-left: 3px;
+    border-radius: 50%;
+    border: solid white 2px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+
+.toastMessage{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.hideMe{
+    display: none;
+}
+
+.showMe{
+    display: block;
+}
+
+.toastIcon{
+    float: left;
+    height: 25px;
+    display: block;
+}
